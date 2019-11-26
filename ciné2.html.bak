@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="ciné2.css">
+    <title>projet</title>
+
+	<!-- Start WOWSlider.com HEAD section --> <!-- add to the <head> of your page -->
+	<link rel="stylesheet" type="text/css" href="engine0/style.css" />
+	<script type="text/javascript" src="engine0/jquery.js"></script>
+	<!-- End WOWSlider.com HEAD section --></head>
+<body>
+    <div id="entete" class="l100 b">
+
+    </div>
+    <header>
+        <div id="slider" class="l100 b">
+	<!-- Start WOWSlider.com BODY section --> <!-- add to the <body> of your page -->
+	<div id="wowslider-container0">
+	<div class="ws_images"><ul>
+		<li><a href="http://wowslider.net"><img src="data0/images/b9718106740z.1_20190102154423_000+gmpcmqnkh.40.jpg" alt="css slideshow" title="" id="wows0_0"/></a></li>
+		<li><img src="data0/images/703459_wallpapersthormovieposterbackgrounds1920x1080_1920x1080_h.jpg" alt="" title="" id="wows0_1"/></li>
+	</ul></div>
+	<div class="ws_bullets"><div>
+		<a href="#" title=""><span><img src="data0/tooltips/b9718106740z.1_20190102154423_000+gmpcmqnkh.40.jpg" alt=""/>1</span></a>
+		<a href="#" title=""><span><img src="data0/tooltips/703459_wallpapersthormovieposterbackgrounds1920x1080_1920x1080_h.jpg" alt=""/>2</span></a>
+	</div></div><div class="ws_script" style="position:absolute;left:-99%"><a href="http://wowslider.net">html5 slider</a> by WOWSlider.com v8.8</div>
+	<div class="ws_shadow"></div>
+	</div>	
+	<script type="text/javascript" src="engine0/wowslider.js"></script>
+	<script type="text/javascript" src="engine0/script.js"></script>
+	<!-- End WOWSlider.com BODY section -->
+
+        </div>
+    </header>
+    <div id="bannierre" class="l100 b">
+        <table>
+            <tr>
+                <td class="b accueil back"><a class="a" href="inscription jk cinema.html">ACCUEIL</a></td>
+                <td class="b accueil back"><a class="a" href="inscription jk cinema.html">FILM A L'AFFICHE</a></td>
+                <td class="b accueil back"><a class="a" href="inscription jk cinema.html">LES HORAIRES</a></td>
+                <td class="b accueil back"><a class="a" href="inscription jk cinema.html">PROCHAINEMENT</a></td>
+                <td class="b accueil back"><a class="a" href="inscription jk cinema.html">INSCRIPTION</a></td>
+            </tr>
+        </table>
+    </div>
+    <div id="contenu" class="l100 b">
+        <div class="affiche b">
+            <table>
+                <tr>
+                    <td class="b image"></td>
+                    <td class="b text"></td>
+                </tr>
+            </table>
+        </div>
+
+        <div class="affiche b">
+                <table>
+                    <tr>
+                        <td class="b image"></td>
+                        <td class="b text"></td>
+                    </tr>
+                </table>
+            </div>
+
+            <div class="affiche b">
+                    <table>
+                        <tr>
+                            <td class="b image"></td>
+                            <td class="b text"></td>
+                        </tr>
+                    </table>
+                </div>
+
+                <div class="affiche b">
+                        <table>
+                            <tr>
+                                <td class="b image"></td>
+                                <td class="b text"></td>
+                            </tr>
+                        </table>
+                    </div>
+
+                    <div class="affiche b">
+                            <table>
+                                <tr>
+                                    <td class="b image"></td>
+                                    <td class="b text"></td>
+                                </tr>
+                            </table>
+                        </div>
+
+                        <div class="affiche b">
+                                <table>
+                                    <tr>
+                                        <td class="b image"></td>
+                                        <td class="b text"></td>
+                                    </tr>
+                                </table>
+                            </div>
+
+                            <div class="clear"></div>
+
+                            <div id="bannierre" class="l75 b"></div>
+                            <header>
+                                <div id="contenu1" class="l75 b">
+
+                                </div>
+
+                            </header> 
+
+                            
+
+
+<div id="bannierre" class="l75 b"></div>
+
+<div id="vo" class="l75 b ">
+
+</div>
+
+<div id="bannierre" class="l75 b"></div>
+<div id="vo" class="l75 b "></div>
+
+<div id="bannierre" class="l75 b"></div>
+<div id="vo" class="l75 b "></div>
+
+
+
+
+    </div>
+    
+</body>
+</html>

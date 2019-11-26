@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Inscription</title>
+    <style>
+    body
+    {
+        background: white url() no-repeat  fixed;
+    background-size: cover;
+    
+    }
+    .back{
+        
+        color: blue;
+        text-align: center;
+           background: black url() no-repeat  fixed;
+           
+       }
+       .b{  border: 4px solid red;}
+       .text{
+        text-align: center;
+        
+    }
+    #contenu {
+        width: 600px;
+        height: 1000px;
+        margin:0 auto;
+    }
+    
+    </style>
+</head>
+<body>
+        <div id="contenu" class="b back text">
+        <form action="" class="back">
+                <table align="center">
+                    <tr>
+                        <th><label for="email" class="">Email</label></th>
+                        <td><input type="email" name="email" id="email" placeholder="Email..." autocomplete="off" required></td>
+                    </tr>
+                    <tr>
+                        <th><label for="">Mot de passe</label></th>
+                        <td><input type="password" name="pwd" id="pwd" placeholder="Minimum 10 lettres "></td>
+                    </tr>
+                    <tr>
+                        <th><label for="">Sexe :</label></th>
+                        <td>
+            
+                            <input type="radio" name="sexe" id="homme" value="homme"> <label for="homme">Homme</label>
+                            <input type="radio" name="sexe" id="femme" value="femme"> <label for="femme">Femme</label>
+                        
+                        </td>
+                    </tr>
+                    <tr>
+                        <th><label for="">Equipes : </label></th>
+                        <td>
+                            <label for="p">PSG</label>
+                            <input type="checkbox" name="p" id="p" value="psg">
+                            <label for="pr">REAL MADRID</label>
+                            <input type="checkbox" name="pr" id="pr" value="REAL MADRID">
+                            <label for="p">BARCELONE</label>
+                            <input type="checkbox" name="p" id="p" value="BARCELONE">
+                            <label for="pr">TP MAZEMBE</label>
+                            <input type="checkbox" name="pr" id="pr" value="TP MAZEMBE">
+                        
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><label for="ville">Villes : </label>
+                       
+                        </td>
+                        <td><input type="text" list="Ma ville">
+                             <datalist id="Ma ville"  multiple size="1" required>
+                            <option value="" selected>Choisir une ville...</option>
+                            <option value="Casa">Casa</option>
+                            <option value="Rabat">Rabat</option>
+                            <option value="Fès">Fès</option>
+                                <option value="Ifrane">Ifrane</option>
+                        </datalist>
+                    
+                    
+                    </td>
+                    </tr>
+                    <tr>
+                        <td>Pays</td>
+                        <td>
+                            <input type="text" list="monpays">
+                            <datalist id="monpays">
+                                <option value="centrafrique">centrafrique</option>
+                                <option value="senegal">senegal</option>
+                                <option value="maroc">maroc</option>
+                                <option value="congo">congo</option>
+                                <option value="guinée">guinée</option>
+                                <option value="mali">mali</option>
+                            </datalist>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><label for="adresse" >Adresse :</label>
+                        </td>
+                        
+                        <td>            <textarea required name="adresse" id="adresse" cols="30" rows="10"></textarea>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><label for="photo">photo :</label>  </td>
+                        
+                        <td> <input type="file" name="photo" id="photo">            </td>
+                    </tr>
+                    <tr>
+                        <td><label for="s">Salaire :</label>  </td>
+            
+                        <td> <input type="number" name="s" id="s" min="0" max="999999">            </td>
+                    </tr>
+                    <tr>
+                        <td><label for="phone">Tel :</label>  </td>
+                        
+                        <td> <input type="tel" name="phone" id="phone" pattern="[0-9]{10}">            </td>
+                    </tr>
+                    <tr>
+                        <td><label for="date">Date de naissance  :</label>  </td>
+                        
+                        <td> <input type="datetime-local" name="daten" id="daten">            </td>
+                    </tr>
+                    <tr>
+                        <td><label for="t">Heure  :</label>  </td>
+                        
+                        <td> <input type="time" name="t" id="t">            </td>
+                    </tr>
+                    <tr>
+                        <td><label for="c">Couleur  :</label>  </td>
+                        
+                        <td> <input type="color" name="c" id="c">            </td>
+                    </tr>
+            
+            
+                    <tr>
+                        <th></th>
+                        <td>
+                            <input type="submit" value="Valider">
+                        <button>S'inscrire</button>
+                        <td>
+                        <input type="reset" value="Annuler">
+                        
+                        </td>
+                    </tr>
+            
+                </table>
+            </form> </div>
+    
+</body>
+</html>
